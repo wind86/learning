@@ -1,6 +1,6 @@
-# python3 ntlk tutorial
+# python3 nltk tutorial
 
-Based on youtube sentdex python3 ntlk channel
+Based on youtube sentdex python3 nltk channel
 For more details, please visit below url
 https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL
 
