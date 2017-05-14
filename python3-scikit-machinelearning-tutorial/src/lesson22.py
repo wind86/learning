@@ -128,7 +128,11 @@ def Forward(gather=["Total Debt/Equity",
                     if (len(value) == 0):
                         continue
                     
-                    value = re.search(regex, value[0]).group(1)
+                    value = re.search(regex, value[0])
+                    if value is not None:
+                        value = value.group(1)
+                    else:
+                        value = 'N/A'
 
                     if "B" in value:
                         value = float(value.replace("B",''))*1000000000
