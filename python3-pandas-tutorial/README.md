@@ -1,4 +1,4 @@
-# python3 nltk tutorial
+# python3 pandas tutorial
 
 Based on youtube sentdex python3 pandas channel
 For more details, please visit below url
