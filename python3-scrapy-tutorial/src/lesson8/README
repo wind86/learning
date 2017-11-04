@@ -1,0 +1,6 @@
+To run example:
+1) install docker
+2) load scrapinghub docker image: `sudo docker pull scrapinghub/splash`
+3) run above image: `docker run -p 8050:8050 scrapinghub/splash`
+4) install scrapy-splash: `pip install scrapy-splash`
+5) navigate to /lesson8/splash_based_project: `scrapy crawl quotes-js`
